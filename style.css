@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1350px;
+    margin: 0 auto;
+}
+
+body{
+    background: #EFEFEF;
+}
+
+.header{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 39px;
+    margin-bottom: 70px;
+}
+
+.menu{
+    height: 75px;
+    width: 146px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.sessao_boasvindas{
+    width: 100%;
+    height: 76px;
+    display: flex;
+}
+
+.saudacao{
+    width: 481px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 17px;
+    padding-left: 52px;
+    margin-right: 9px;
+}
+
+.saudacao h3{
+    font-family: "vwfontbold";
+    text-transform: uppercase;
+    margin-left: 14px;
+    font-size: 24px;
+}
+
+.titulo_pag{
+    width: 909px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 17px;
+    padding-left: 36px;
+    margin-right: 9px;
+}
+
+.titulo_pag h3{
+    font-family: "vwfontbold";
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+button{
+    width: 328px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    border: 0;
+    border-radius: 17px;
+    color: #FFFFFF;
+    font-family: "vwfontbold";
+    text-transform: uppercase;
+    font-size: 24px;
+    justify-content: center;
+    background: linear-gradient(90deg, #041861 -15.24%, #4BABE8 50%);
+}
+
+.cabecalho_squad{
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    
+}
+
+.nome_n_squad{
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nome_da_squad{
+    width: 409px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 17px;
+    margin-right: 9px;
+}
+
+.nome_da_squad h3{
+    font-family: "vwfontbold";
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.n_de_squad{
+    width: 214px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 17px;
+}
+
+.n_de_squad h3{
+    font-family: "vwfontbold";
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.nome_n_squad{
+    display: flex;
+}
+
+.tarefas_projeto{
+    width: 100%;
+    height: 520px;
+    display: flex;
+    margin-top: 59px;
+
+    background: #000000;
+    border-radius: 30px;
+}
+
+.titulo_tabela{
+    width: 100%;
+    height: 76px;
+    display: flex;
+    
+}
+
+.titulo_tabela h2{
+    width: 481px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 40px;
+    margin-top: 40px;
+
+    font-family: "vwfontregular";
+    color: white;
+}
